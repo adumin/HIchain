@@ -1,0 +1,51 @@
+html, body{
+  background: #aaaaaa;
+  width: 100%;
+  height: auto;
+  min-width: 980px;
+  position: relative;
+  margin: 0px;
+}
+#background{
+  background: pink;
+  width: 100%;
+  height: 100%;
+  position: absolute; z-index: 0;
+}
+#H_0{
+  background: brown;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#H_1{
+  background: brown;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+#I_0{
+  background: brown;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+#I_1{
+  background: brown;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+#background img{
+  width: 100%; height: 100%;
+}
+#main{
+}

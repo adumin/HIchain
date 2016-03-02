@@ -1,0 +1,70 @@
+@charset UTF-8;
+/*---------------/ヘッダー/------------*/
+#header{
+  position: absolute; z-index: 2;
+  top: 0; left: 0;
+  width: 100%; height: 10%;
+  margin: 0%;
+  padding: 0%;
+}
+#circle, #rule, #link, #ivent, #inquiry, #etc{
+  background: rgb(255, 255, 53);
+  display: block;
+  position: relative;
+  float: left;
+  width: 11%;
+  height: 100%;
+  min-width: 107px;
+  margin: 0px 9px 0px;
+  /*border-left: solid 5px;
+  border-color: rgb(246, 246, 148);*/
+  cursor: pointer;
+  text-align: center;
+}
+#home{
+  background: rgb(255, 255, 53);
+  display: block;
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 100%;
+  min-width: 196px;
+  margin: 0% 1% 0%;
+  /*border-left: solid 5px;
+  border-color: rgb(246, 246, 148);*/
+  cursor: pointer;
+}
+#header p{
+  display: block;
+  margin: 0%;
+  padding: 0%;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  /*text-align: center;*/
+}
+#circle > img, #rule > img, #link > img, #ivent > img, #inquiry > img, #etc > img{
+  display: block;
+  width: auto;
+  height: 100%;
+  /*max-width: 50%;*/
+  /*max-height: auto;*/
+  margin: 0%;
+  padding :0%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#home > img{
+  display: block;
+  width: auto;
+  height: 100%;
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+  margin: 0%;
+  padding :0%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+/*---------------/ヘッダー/------------*/
