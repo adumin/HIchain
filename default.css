@@ -1,51 +1,62 @@
-html, body{
-  background: #aaaaaa;
-  width: 100%;
+html{
+  width: 1412px;
+  min-height: 900px;
   height: auto;
-  min-width: 980px;
+  margin: 0 auto;
   position: relative;
-  margin: 0px;
+  overflow: hidden;
+}
+body{
+  width: inherit;
+  min-height: inherit;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
 }
 #background{
-  background: pink;
+  /*background: pink;*/
   width: 100%;
   height: 100%;
-  position: absolute; z-index: 0;
+  position: absolute; z-index: 1;
+  overflow: hidden;
 }
 #H_0{
   background: brown;
-  width: 10%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 300px;
+  left: 290px;
 }
 #H_1{
   background: brown;
-  width: 10%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  left: 490px;
+  top: 500px;
 }
 #I_0{
   background: brown;
-  width: 10%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  left: 0%;
-  bottom: 0%;
+  left: 290px;
+  top: 500px;
 }
 #I_1{
   background: brown;
-  width: 10%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: 300px;
+  left: 490px;
 }
-#background img{
-  width: 100%; height: 100%;
+#H_0 img, #I_0 img, #H_1 img, #I_1 img{
+  width: 200px;
+  height: 200px;
 }
 #main{
+  width: 100%;
+  height: 1000px;
 }
