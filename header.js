@@ -14,7 +14,8 @@ function pulldown(name){
 }
 (function(){
   var id = document.getElementById("header");
-  window.addEventListener("scroll", function(){
-    id.style.left = -document.getElementsByTagName("body")[0].scrollLeft + "px";
-  })
+  // window.addEventListener("scroll", function(){
+  //   id.style.left = -document.getElementsByTagName("body")[0].scrollLeft + "px";
+  // })
+  //id.style.left = ((window.innerWidth / 2) - id.style.width) + "px";
 })()

@@ -1,62 +1,131 @@
-html{
-  width: 1412px;
+  html{
+  overflow-y: scroll;
+}
+  html, body{
+  width: 950px;
   min-height: 900px;
   height: auto;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
-}
-body{
-  width: inherit;
-  min-height: inherit;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
+  font-size: 12px;
 }
 #background{
   /*background: pink;*/
   width: 100%;
   height: 100%;
-  position: absolute; z-index: 1;
-  overflow: hidden;
+  min-height: 900px;
+  position: absolute; z-index: 0;
 }
 #H_0{
-  background: brown;
-  width: 200px;
-  height: 200px;
-  position: absolute;
+  background: white;
+  width: 150px;
+  height: 150px;
+  position: absolute; z-index: 1;
   top: 300px;
   left: 290px;
+  opacity: 0;
 }
 #H_1{
-  background: brown;
-  width: 200px;
-  height: 200px;
-  position: absolute;
+  background: white;
+  width: 150px;
+  height: 150px;
+  position: absolute; z-index: 1;
   left: 490px;
   top: 500px;
+  opacity: 0;
 }
 #I_0{
-  background: brown;
-  width: 200px;
-  height: 200px;
-  position: absolute;
+  background: white;
+  width: 150px;
+  height: 150px;
+  position: absolute; z-index: 1;
   left: 290px;
   top: 500px;
+  opacity: 0;
 }
 #I_1{
-  background: brown;
-  width: 200px;
-  height: 200px;
-  position: absolute;
+  background: white;
+  width: 150px;
+  height: 150px;
+  position: absolute; z-index: 1;
   top: 300px;
   left: 490px;
+  opacity: 0;
 }
 #H_0 img, #I_0 img, #H_1 img, #I_1 img{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
-#main{
-  width: 100%;
-  height: 1000px;
+#update{
+  background: rgba(242, 172, 172, 0.95);
+  margin: 0;
+  border: 5px solid rgb(200, 0, 0);
+  padding: 0;
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  top: 605px;
+  left: 0;
+  opacity: 0;
+  overflow-y: auto;
+}
+#update > h1{
+  margin-left: 1em;
+}
+#update > ul{
+  margin-left: 0;
+}
+#update li{
+  margin: 0 0 0 2em;
+  padding: 0;
+  font-size: 20px;
+}
+#twitterTimeline{
+  margin: 0;
+  border: 5px solid rgb(200, 0, 0, 0);
+  padding: 0;
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  top: 605px;
+  right: 0;
+}
+#container{
+  background: rgba(255, 255, 255, 0.9);
+  width: 0;
+  min-height: 0;
+  height: auto;
+  position: absolute; z-index: 1;
+  opacity: 0;
+  border: 3px solid;
+  padding: 0 5px;
+}
+#container > h1{
+  margin-left: 1em;
+  display: none;
+  opacity: 0;
+}
+#container > h2{
+  margin-left: 2em;
+  display: none;
+  opacity: 0;
+
+}
+#container > p{
+  margin: 0 0 0 2em;
+  padding: 0 1em;
+  font-size: 20px;
+  display: none;
+  opacity: 0;
+
+}
+#container > hr{
+  margin: 50px 25%;
+  display: none;
+  opacity: 0;
+
+}
+a{
+  color: rgb(200, 0, 0);
+  text-decoration: none;
 }

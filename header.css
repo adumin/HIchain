@@ -1,52 +1,61 @@
-@charset UTF-8;
 /*---------------/ヘッダー/------------*/
 #header{
-  position: absolute; z-index: 2;
+  /*background: red;*/
+  position: relative; z-index: 2;
   top: 0; left: 0;
-  width: inherit; height: 10%;
-  margin: 0%;
-  padding: 0%;
+  width: inherit;
+  margin: 0 auto;
+  padding: 0;
 }
-#circle{
-  background: rgb(255, 255, 53);
-  display: block;
-  position: relative;
-  float: left;
-  width: 144px;
-  height: 72px;
-  cursor: pointer;
-  text-align: center;
-}
-#rule, #link, #ivent, #inquiry, #etc{
-  background: rgb(255, 255, 53);
-  display: block;
-  position: relative;
-  float: left;
-  width: 144px;
-  height: 72px;
-  margin-left: 8px;
-  cursor: pointer;
-  text-align: center;
+#header > ul{
+  width: inherit;
+  height: 77px;
+  margin: 0 auto;
+  padding: 0;
 }
 #home{
-  background: rgb(255, 255, 53);
+  display: block;
+  position: relative;
+  width: 500px;
+  height: 71px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#circle{
+  background: white;
   display: block;
   position: relative;
   float: left;
-  width: 500px;
-  height: 71px;
-  margin-left: 8px;
+  width: 142px;
+  height: 72px;
+  margin-left: 6px;
+  border-left: 5px solid rgb(200, 0, 0);
+  border-right: 5px solid rgb(200, 0, 0);
+  border-bottom: 5px solid rgb(200, 0, 0);
   cursor: pointer;
+}
+#game, #rule, #link, #event, #inquiry, #etc{
+  background: white;
+  display: block;
+  position: relative;
+  float: left;
+  width: 142px;
+  height: 72px;
+  margin-left: 5px;
+  border-left: 5px solid rgb(200, 0, 0);
+  border-right: 5px solid rgb(200, 0, 0);
+  border-bottom: 5px solid rgb(200, 0, 0);
+  cursor: pointer;
+  overflow: hidden;
 }
 #header p{
   display: block;
-  margin: 0%;
-  padding: 0%;
-  position: absolute;
-  top: 40%;
-  right: 0%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
-#circle > img, #rule > img, #link > img, #ivent > img, #inquiry > img, #etc > img{
+#circle > img, #game > img, #rule > img, #link > img, #event > img, #inquiry > img, #etc > img{
+  background: white;
   display: block;
   width: 72px;
   height: 72px;
@@ -55,6 +64,14 @@
   position: absolute;
   top: 0%;
   left: 0%;
+  opacity: 0.3;
+}
+.en{
+  margin: 0px;
+  position: absolute;
+  bottom: -3px;
+  left: 72px;
+  opacity: 0.3;
 }
 #home > img{
   display: block;
